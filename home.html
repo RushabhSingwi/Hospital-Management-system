@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital</title>
+    <link rel="stylesheet" href="home.css">
+</head>
+<body>
+    <header id="head">
+        <section id="namebar">
+            <img id="logo" src="logo.jfif" height="100">
+            <p id="name">LIFE SAVER HOSPITAL</p>
+        </section> 
+        <section id="navbar"> 
+            <nav>
+                <ul>
+                  <li><a href="#head">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#departments">Departments</a></li>
+                  <li><a href="#services">Services</a></li>
+                  <li><a href="#gallery">Gallery</a></li>
+                  <li><a href="#login">Log In/ Sign Up</a></li>
+                  <li><a href="#contactus">Contact Us</a></li>
+                </ul>
+              </nav>
+        </section>
+    </header>
+  
+    <section id="about">
+        <div id="about-container">
+        <section id="about1">
+            <p>Personal care for your healthy living</p>
+            <p id="desc">We try to make maximum use of our experience, accumulated potential, knowledge of modern medicine.</p>
+        </section>
+        <section id="about2">
+            <img src="doc1.jfif" height="250px">
+        </section></div>
+    </section>
+
+    <section id="departments">
+        <section id="departments1">
+            <p>Departments</p>
+        </section>
+        
+        <div class="department-container">
+            <div class="department">
+                <h3>Obstetrics and gynaecology</h3>
+                <p>Provides care for women during pregnancy, childbirth, and reproductive health.</p>
+            </div>
+            <div class="department">
+                <h3>Urology</h3>
+                <p>It is run by consultant urology surgeons and investigates areas linked to kidney and bladder conditions.</p>
+            </div>
+            <div class="department">
+                <h3>Cardiology</h3>
+                <p>It is staffed by cardiologists, nurses who are trained to provide specialized care to patients with heart</p>
+            </div>
+            <div class="department">
+                <h3>Orthopedics</h3>
+                <p>Department of Orthopaedic surgery is having well trained surgeons in respective field · Paediatric Cardiology.</p>
+            </div> 
+            <div class="department">
+                <h3>General Surgery</h3>
+                <p>Covers a wide range of types of surgery and procedures on patients.</p>
+            </div>
+        </div>
+        <div class="department-container1">
+            <div class="department">
+                <h3>Neurology</h3>
+                <p>The neurology department is where patients go for the diagnosis and treatment of neurological conditions.</p>
+            </div>
+            <div class="department">
+                <h3>Ophthalmology</h3>
+                <p>The Ophthalmology department provides ophthalmic eye-related services for both in and outpatients.</p>
+            </div>
+            <div class="department">
+                <h3>Radiology</h3>
+                <p>The radiology department is staffed by radiologists, radiologic technologists who perform diagnostic imaging tests.</p>
+            </div> 
+            <div class="department">
+                <h3>Internal Medicine</h3>
+                <p>Provides comprehensive care for adult patients, managing a wide range of medical conditions</p>
+            </div>
+            <div class="department">
+                <h3>Paediatrics</h3>
+                <p>It is staffed by emergency medicine physicians who are trained to provide urgent care to patients.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services">
+        <section id="services1">
+            <img src="sevices.jfif" height="400px" style="border-radius: 20px;">
+        </section>
+        <section id="services2">
+            <p style="font-size: 250%;margin-bottom: 5%;">Services we provide</p>
+            <p id="service" style="font-size: 120%;font-family: Arial, Helvetica, sans-serif;">Essential services</p>
+            <p id="service">
+                <ul>
+                    <li>OPD service</li>
+                    <li>Emergency and Casualty Services</li>
+                </ul>
+            </p> 
+            <p id="service" style="font-size: 120%;font-family: Arial, Helvetica, sans-serif;">Admn. services</p>
+            <p id="service">
+                <ul>
+                    <li>Financial Management</li>
+                    <li>House Keeping</li>
+                </ul>
+            </p> 
+            <p id="service" style="font-size: 120%;font-family: Arial, Helvetica, sans-serif;">Utility services</p>
+            <p id="service">
+                <ul>
+                    <li>Dietary Services</li>
+                    <li>Medical Store</li>
+                </ul>
+            </p> 
+        </section>
+    </section>
+
+    <section id="gallery">
+        <div class="row">
+            <div class="column">
+                <img id="img1" src="h1.jfif" alt="Image 1">
+            </div>
+            <div class="column">
+                <img id="img1" src="h2.jfif" alt="Image 2">
+            </div>
+            <div class="column">
+                <img id="img1" src="h3.jfif" alt="Image 3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img id="img1" src="h7.jfif" alt="Image 1">
+            </div>
+            <div class="column">
+                <img id="img1" src="h8.jfif" alt="Image 2">
+            </div>
+            <div class="column">
+                <img id="img1" src="h9.jfif" alt="Image 3">
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img id="img1" src="h4.jfif" alt="Image 1">
+            </div>
+            <div class="column">
+                <img id="img1" src="h5.jfif" alt="Image 2">
+            </div>
+            <div class="column">
+                <img id="img1" src="h6.jfif" alt="Image 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="login">
+        <img id="login-img" src="log.jfif" alt="Hospital Image">
+        <div>
+            <p id="login-text">Access your account or sign up to explore our services.</p>
+            <button id="login-btn" onclick="redirectToLogin()">Login</button>
+            <button id="signup-btn" onclick="redirectToSignup()">Signup</button>
+        </div>
+    </section>
+
+    <script>
+        function redirectToLogin() { 
+            window.location.href = 'login.html';
+        }
+
+        function redirectToSignup() { 
+            window.location.href = 'signup.html';
+        }
+    </script>
+
+    <section id="contactus">
+        <p style="font-size: 200%; color: white; ">CONTACT US</p>
+        <p style="font-size: 100%; ">+91 00000 00000 | <a href="mailto:aasthasingh14112002@gmail.com" >lifesaverhospi@gmail.com</a></p>
+        <p style="font-size: 200%; color: white; margin-top: 4%;">FIND US ON</p>
+        <p>
+            <img id="img2" src="l1.png">
+            <img id="img2" src="l2.png">
+            <img id="img2" src="l3.png">
+            <img id="img2" src="l4.png">
+        </p>
+    </section>
+</body>
+</html>
